@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\site.css" />
+    <Content Include="wwwroot\css\site.min.css" />
+    <Content Include="wwwroot\css\site.scss" />
+    <Content Include="wwwroot\images\header-image.svg" />
+    <Content Include="wwwroot\images\header.jpg" />
+    <Content Include="wwwroot\images\product\dst.png" />
+    <Content Include="wwwroot\images\product\handywings.png" />
+    <Content Include="wwwroot\images\product\indyThai.png" />
+    <Content Include="wwwroot\images\product\leelawadee.png" />
+    <Content Include="wwwroot\images\product\sic.png" />
+    <Content Include="wwwroot\images\product\village.png" />
+    <Content Include="wwwroot\images\service\AutomatedIOT.png" />
+    <Content Include="wwwroot\images\service\Automated.png" />
+    <Content Include="wwwroot\images\service\IOT.png" />
+    <Content Include="wwwroot\images\service\Software.png" />
+    <Content Include="wwwroot\images\service\System.png" />
+    <Content Include="wwwroot\images\social\facebook-logo.svg" />
+    <Content Include="wwwroot\images\social\instagram-logo.svg" />
+    <Content Include="wwwroot\images\social\twitter-logo.svg" />
+    <Content Include="wwwroot\images\team\avatar.png" />
+    <Content Include="wwwroot\images\team\avatar08.png" />
+    <Content Include="wwwroot\js\hubslider.min.js" />
+    <Content Include="wwwroot\js\typed.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
